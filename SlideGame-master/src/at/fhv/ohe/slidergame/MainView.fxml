@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<?import javafx.scene.control.Button?>
+<?import at.fhv.ohe.slidergame.SliderController?>
+<GridPane prefHeight="600" prefWidth="600"  xmlns="http://javafx.com/javafx/8.0.121"
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.fhv.ohe.slidergame.MainView">
+
+    <children>
+        <SliderController prefWidth="-Infinity" prefHeight="-Infinity" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS"/>
+    </children>
+
+</GridPane>
